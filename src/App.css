@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* validification*/
+.verification {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin: auto;
+  gap: 20px;
+  height: 100vh;
+  
+}
+
+/*insert info*/
+.insert input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+.insert {
+  width: 50%;
+ 
+}
+
+/*button*/
+.verification button {
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  background-color: rgb(9, 92, 181);
+  border-radius: 5px;
+  cursor: pointer;
+}
